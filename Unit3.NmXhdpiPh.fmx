@@ -1,0 +1,16 @@
+inherited Form3_NmXhdpiPh: TForm3_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    StyledSettings = [Family]
+    Size.Width = 401.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 22.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claCornflowerblue
+    TextSettings.HorzAlign = Center
+    Text = 'Clientes'
+  end
+end

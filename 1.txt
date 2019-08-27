@@ -1,0 +1,16 @@
+edt1 código
+edt2 cpf
+edt3 nome
+edt4 cep
+edt5 endereço
+edt6 uf
+edt7 município
+edt8 telefone
+edt9 email
+edt senha
+
+btn1 novo cliente
+btn2 excluir cliente
+btn3 procurar cliente
+btn4 retornar a pagina inicial
+btn5 salvar

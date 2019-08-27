@@ -1,0 +1,45 @@
+inherited Form2_NmXhdpiPh: TForm2_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited Button1: TButton
+    Position.X = 56.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 297.000000000000000000
+    Size.Height = 92.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Cadastro de Clientes'
+  end
+  inherited Button2: TButton
+    Position.X = 56.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 297.000000000000000000
+    Size.Height = 92.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Pedidos'
+  end
+  inherited Button3: TButton
+    Position.X = 56.000000000000000000
+    Position.Y = 280.000000000000000000
+    Size.Width = 297.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Cadastro de Produtos'
+  end
+  inherited Button4: TButton
+    Position.X = 56.000000000000000000
+    Position.Y = 400.000000000000000000
+    Size.Width = 297.000000000000000000
+    Size.Height = 92.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Carrinho'
+  end
+  inherited Button5: TButton
+    Position.X = 56.000000000000000000
+    Position.Y = 528.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Sair'
+  end
+end

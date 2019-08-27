@@ -1,0 +1,14 @@
+inherited Form3_Windows: TForm3_Windows
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    StyledSettings = [Family]
+    Size.Width = 641.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 22.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claCornflowerblue
+    TextSettings.HorzAlign = Center
+    Text = 'Cadastro de Clientes'
+  end
+end

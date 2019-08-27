@@ -1,0 +1,109 @@
+inherited Form3_Windows: TForm3_Windows
+  ClientWidth = 597
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    Anchors = [akTop]
+    Position.X = 72.161727905273440000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    TextSettings.VertAlign = Leading
+  end
+  inherited Label2: TLabel
+    Position.X = 32.000000000000000000
+  end
+  inherited Label3: TLabel
+    Position.X = 272.000000000000000000
+  end
+  inherited Label4: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 128.000000000000000000
+  end
+  inherited Label5: TLabel
+    Position.X = 80.000000000000000000
+    Position.Y = 176.000000000000000000
+  end
+  inherited Label6: TLabel
+    Position.X = 56.000000000000000000
+    Position.Y = 216.000000000000000000
+  end
+  inherited Label7: TLabel
+    Position.X = 80.000000000000000000
+    Position.Y = 264.000000000000000000
+  end
+  inherited Label8: TLabel
+    Position.X = 200.000000000000000000
+    Position.Y = 264.000000000000000000
+  end
+  inherited Label9: TLabel
+    Position.X = 48.000000000000000000
+    Position.Y = 312.000000000000000000
+  end
+  inherited Label10: TLabel
+    Position.X = 56.000000000000000000
+    Position.Y = 360.000000000000000000
+  end
+  inherited Edit1: TEdit
+    Position.Y = 80.000000000000000000
+  end
+  inherited Edit2: TEdit
+    Position.X = 352.000000000000000000
+    Position.Y = 80.000000000000000000
+    Enabled = False
+  end
+  inherited Edit3: TEdit
+    Position.Y = 128.000000000000000000
+    Enabled = False
+    Size.Width = 353.000000000000000000
+  end
+  inherited Edit4: TEdit
+    Position.Y = 176.000000000000000000
+    Enabled = False
+  end
+  inherited Edit5: TEdit
+    Position.Y = 216.000000000000000000
+    Enabled = False
+    Size.Width = 345.000000000000000000
+  end
+  inherited Edit6: TEdit
+    Position.Y = 264.000000000000000000
+    Enabled = False
+  end
+  inherited Edit7: TEdit
+    Position.X = 264.000000000000000000
+    Position.Y = 264.000000000000000000
+    Enabled = False
+    Size.Width = 217.000000000000000000
+  end
+  inherited Edit8: TEdit
+    Position.Y = 312.000000000000000000
+    Enabled = False
+  end
+  inherited Edit9: TEdit
+    Position.Y = 352.000000000000000000
+    Enabled = False
+  end
+  inherited Label11: TLabel
+    Position.X = 56.000000000000000000
+    Position.Y = 400.000000000000000000
+  end
+  inherited Edit10: TEdit
+    Position.Y = 392.000000000000000000
+    Enabled = False
+  end
+  inherited NavigatorBindSourceClientes: TBindNavigator
+    Position.X = 160.000000000000000000
+    Position.Y = 40.000000000000000000
+  end
+  inherited FDConnection1: TFDConnection
+    Left = 512
+    Top = 24
+  end
+  inherited BindSourceClientes: TBindSourceDB
+    Left = 512
+    Top = 96
+  end
+  inherited FDTableClientes: TFDTable
+    Left = 512
+    Top = 152
+  end
+end

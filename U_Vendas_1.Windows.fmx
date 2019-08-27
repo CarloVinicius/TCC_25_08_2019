@@ -1,0 +1,40 @@
+inherited Form1_Windows: TForm1_Windows
+  Caption = 'Login'
+  ClientWidth = 360
+  DesignerMasterStyle = 3
+  inherited Edit1: TEdit
+    Position.X = 56.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 249.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Edit2: TEdit
+    Position.X = 56.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 249.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Label1: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 56.000000000000000000
+    Position.Y = 48.000000000000000000
+    TextSettings.Font.Size = 16.000000000000000000
+  end
+  inherited Label2: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 56.000000000000000000
+    Position.Y = 144.000000000000000000
+    TextSettings.Font.Size = 16.000000000000000000
+  end
+  inherited Button1: TButton
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 80.000000000000000000
+    Position.Y = 296.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Login '
+    TextSettings.Font.Size = 18.000000000000000000
+    OnClick = Button1Click
+  end
+end

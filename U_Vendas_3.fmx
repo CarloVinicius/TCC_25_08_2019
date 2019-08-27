@@ -1,0 +1,350 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro de Clientes'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    AutoSize = True
+    StyledSettings = [Family]
+    Position.X = 192.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claCornflowerblue
+    Text = 'Cadastro de Clientes'
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    AutoSize = True
+    Position.X = 48.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'C'#243'digo Cliente'
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    AutoSize = True
+    Position.X = 248.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'CPF Cliente'
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    AutoSize = True
+    Position.X = 48.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Nome Cliente'
+    TabOrder = 3
+  end
+  object Label5: TLabel
+    AutoSize = True
+    Position.X = 104.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'CEP'
+    TabOrder = 4
+  end
+  object Label6: TLabel
+    AutoSize = True
+    Position.X = 80.000000000000000000
+    Position.Y = 200.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Endere'#231'o'
+    TabOrder = 5
+  end
+  object Label7: TLabel
+    AutoSize = True
+    Position.X = 112.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 17.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'UF'
+    TabOrder = 6
+  end
+  object Label8: TLabel
+    Position.X = 192.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Munic'#237'pio'
+    TabOrder = 7
+  end
+  object Label9: TLabel
+    AutoSize = True
+    Position.X = 80.000000000000000000
+    Position.Y = 280.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Telefone'
+    TabOrder = 8
+  end
+  object Label10: TLabel
+    Position.X = 96.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'email'
+    TabOrder = 9
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 10
+    Text = '4'
+    Position.X = 136.000000000000000000
+    Position.Y = 72.000000000000000000
+    Enabled = False
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 11
+    Text = '0'
+    Position.X = 320.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit3: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 12
+    Text = 'Cliente Teste 1'
+    Position.X = 136.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 321.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit4: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 13
+    Text = '13480000'
+    Position.X = 136.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit5: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 14
+    Text = 'Rua Zero'
+    Position.X = 136.000000000000000000
+    Position.Y = 200.000000000000000000
+    Size.Width = 321.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit6: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 15
+    Text = 'SP'
+    Position.X = 136.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit7: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 16
+    Text = 'Porto Real'
+    Position.X = 248.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit8: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 17
+    Text = '0'
+    Position.X = 136.000000000000000000
+    Position.Y = 280.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit9: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 18
+    Text = 'carlovinicius@gmail.com'
+    Position.X = 136.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label11: TLabel
+    AutoSize = True
+    Position.X = 96.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 33.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Senha'
+    TabOrder = 20
+  end
+  object Edit10: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 21
+    Text = '1234'
+    Position.X = 136.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object NavigatorBindSourceClientes: TBindNavigator
+    Position.X = 168.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 240.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 26
+    OnClick = NavigatorBindSourceClientesClick
+    DataSource = BindSourceClientes
+    xRadius = 4.000000000000000000
+    yRadius = 4.000000000000000000
+  end
+  object Button1: TButton
+    Position.X = 96.000000000000000000
+    Position.Y = 440.000000000000000000
+    Size.Width = 369.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 31
+    Text = 'Voltar para a Tela Inicial'
+    OnClick = Button1Click
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\Deise Iara\Desktop\Nova pasta\AppVendas\AppVen' +
+        'das\DB\DB.mdb'
+      'User_Name=admin'
+      
+        'ODBCAdvanced=DefaultDir=C:\Users\Deise Iara\Desktop\Nova pasta\A' +
+        'ppVendas\AppVendas\DB;DriverId=25;MaxBufferSize=2048;MaxScanRows' +
+        '=8;PageTimeout=5;SafeTransactions=0;Threads=3;UserCommitSync=Yes'
+      'Pooled=True'
+      'DriverID=MSAcc')
+    LoginPrompt = False
+    Left = 568
+    Top = 16
+  end
+  object BindSourceClientes: TBindSourceDB
+    DataSet = FDTableClientes
+    ScopeMappings = <>
+    Left = 568
+    Top = 72
+  end
+  object FDTableClientes: TFDTable
+    IndexFieldNames = 'Cod_Cli'
+    Connection = FDConnection1
+    UpdateOptions.UpdateTableName = 'Clientes'
+    TableName = 'Clientes'
+    Left = 568
+    Top = 128
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkControlToField1: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceClientes
+      FieldName = 'CPF_Cli'
+      Control = Edit2
+      Track = False
+    end
+    object LinkControlToField2: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceClientes
+      FieldName = 'Nome_Cli'
+      Control = Edit3
+      Track = False
+    end
+    object LinkControlToField3: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceClientes
+      FieldName = 'CEP_Cli'
+      Control = Edit4
+      Track = False
+    end
+    object LinkControlToField4: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceClientes
+      FieldName = 'Cod_Cli'
+      Control = Edit1
+      Track = False
+    end
+    object LinkControlToField5: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceClientes
+      FieldName = 'Estado_Cli'
+      Control = Edit6
+      Track = False
+    end
+    object LinkControlToField6: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceClientes
+      FieldName = 'Munic'#237'pio_Cli'
+      Control = Edit7
+      Track = False
+    end
+    object LinkControlToField7: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceClientes
+      FieldName = 'email_Cli'
+      Control = Edit9
+      Track = False
+    end
+    object LinkControlToField8: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceClientes
+      FieldName = 'Senha_Cli'
+      Control = Edit10
+      Track = False
+    end
+    object LinkControlToField9: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceClientes
+      FieldName = 'Endere'#231'o_Cli'
+      Control = Edit5
+      Track = False
+    end
+    object LinkControlToField10: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceClientes
+      FieldName = 'Telefone_Cli'
+      Control = Edit8
+      Track = False
+    end
+  end
+end

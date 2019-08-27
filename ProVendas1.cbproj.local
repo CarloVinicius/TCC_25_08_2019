@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/06/19 16:55:58.000.230,=C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2019/06/19 16:55:59.000.167,=C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2019/06/19 17:00:46.000.584,C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\U_Vendas_1.cpp</Transaction>
+    <Transaction>2019/06/19 17:00:46.000.584,C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\U_Vendas_1.fmx</Transaction>
+    <Transaction>2019/06/19 17:00:46.000.584,C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\U_Vendas_1.h</Transaction>
+    <Transaction>2019/06/19 17:00:59.000.616,C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\ProVendas1PCH1.h</Transaction>
+    <Transaction>2019/06/19 17:01:09.000.649,C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\ProVendas1.cbproj</Transaction>
+    <Transaction>2019/06/19 17:22:54.000.838,=C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2019/06/19 17:26:48.000.804,C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\U_Vendas_2.fmx=C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2019/06/19 17:26:48.000.804,C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\U_Vendas_2.cpp=C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2019/06/19 17:26:48.000.804,C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\U_Vendas_2.h=C:\Users\julio.ESTACAO01\Documents\Embarcadero\Studio\Projects\Unit2.h</Transaction>
+    <Transaction>2019/06/25 15:32:48.000.701,=C:\Users\julio.ESTACAO01\Documents\Developing\AppVendas\Unit3.cpp</Transaction>
+    <Transaction>2019/06/25 15:39:35.000.482,C:\Users\julio.ESTACAO01\Documents\Developing\AppVendas\U_Vendas_3.fmx=C:\Users\julio.ESTACAO01\Documents\Developing\AppVendas\Unit3.fmx</Transaction>
+    <Transaction>2019/06/25 15:39:35.000.482,C:\Users\julio.ESTACAO01\Documents\Developing\AppVendas\U_Vendas_3.cpp=C:\Users\julio.ESTACAO01\Documents\Developing\AppVendas\Unit3.cpp</Transaction>
+    <Transaction>2019/06/25 15:39:35.000.482,C:\Users\julio.ESTACAO01\Documents\Developing\AppVendas\U_Vendas_3.h=C:\Users\julio.ESTACAO01\Documents\Developing\AppVendas\Unit3.h</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android=""/>
+	</ActiveMobileDevice>
+	<BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>
